@@ -4,19 +4,19 @@ A Codex skill that connects conversations to the Ensue memory network so prior k
 
 ## From GitHub repo to working skill
 
-1) In Codex chat, install from this repo:
+1) Set your API key in the shell where you run Codex:
+
+```bash
+export ENSUE_API_KEY=... # get one from https://www.ensue-network.ai/dashboard
+```
+
+2) In Codex chat, install from this repo:
 
 ```
 $skill-installer mutable-state-inc/ensue-codex-skill/skills/ensue-memory
 ```
 
-2) Restart Codex.
-
-3) Set your API key in the shell where you run Codex:
-
-```bash
-export ENSUE_API_KEY=... # get one from https://www.ensue-network.ai/dashboard
-```
+3) Restart Codex.
 
 4) Use it in chat, e.g. "remember my preferred stack is React + Postgres".
 

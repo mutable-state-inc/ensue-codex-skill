@@ -2,28 +2,23 @@
 
 A Codex skill that connects conversations to the Ensue memory network so prior knowledge can inform new work.
 
-## Install
+## From GitHub repo to working skill
 
-Simplest path (no packaging required):
+1) In Codex chat, install from this repo:
 
-```bash
-mkdir -p "$CODEX_HOME/skills"
-cp -R skills/ensue-memory "$CODEX_HOME/skills/ensue-memory"
+```
+Use skill-installer to install from GitHub repo mutable-state-inc/ensue-codex-skill with path skills/ensue-memory
 ```
 
-Restart Codex after copying the folder.
+2) Restart Codex.
 
-Optional: if you distribute a `.skill` file, users can place it under `$CODEX_HOME/skills` and restart Codex.
-
-## Package
-
-Regenerate the `.skill` file:
+3) Set your API key in the shell where you run Codex:
 
 ```bash
-scripts/package.sh
+export ENSUE_API_KEY=... # get one from https://www.ensue-network.ai/dashboard
 ```
 
-The file is written to `dist/ensue-memory.skill`.
+4) Use it in chat, e.g. "remember my preferred stack is React + Postgres".
 
 ## Configure
 

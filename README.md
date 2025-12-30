@@ -7,7 +7,7 @@ A Codex skill that connects conversations to the Ensue memory network so prior k
 1) In Codex chat, install from this repo:
 
 ```
-Use skill-installer to install from GitHub repo mutable-state-inc/ensue-codex-skill with path skills/ensue-memory
+$skill-installer mutable-state-inc/ensue-codex-skill/skills/ensue-memory
 ```
 
 2) Restart Codex.

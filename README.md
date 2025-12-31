@@ -4,7 +4,7 @@ A Codex skill that connects conversations to the Ensue memory network so prior k
 
 ## From GitHub repo to working skill
 
-1) Set your API key in the shell where you run Codex:
+1) Set your API key (don't worry, free during our alpha) in the shell where you run Codex:
 
 ```bash
 export ENSUE_API_KEY=... # get one from https://www.ensue-network.ai/dashboard
